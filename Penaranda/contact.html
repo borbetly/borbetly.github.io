@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-section">
+                <div class="logo">TV</div>
+                <h1>TechVision</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+        </header>
+
+        <div class="main-wrapper">
+            <!-- Sidebar Navigation -->
+            <aside class="sidebar">
+                <nav class="sidebar-nav">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="index.html#electronics">Electronics</a></li>
+                        <li><a href="index.html#software">Software</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#solutions">Solutions</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <section class="contact-section">
+                    <h2>Contact Us</h2>
+                    <p class="section-subtitle">We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    
+                    <div class="contact-container">
+                        <!-- Contact Form -->
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required placeholder="Enter your message here..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+
+                        <!-- Contact Information -->
+                        <div class="contact-info">
+                            <h3>Contact Information</h3>
+                            <div class="info-item">
+                                <h4>📍 Address</h4>
+                                <p>123 Tech Street<br>Silicon Valley, CA 94025<br>United States</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>📞 Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>✉️ Email</h4>
+                                <p>info@techvision.com</p>
+                            </div>
+                            <div class="info-item">
+                                <h4>🕐 Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Success Message -->
+                    <div class="success-message" id="successMessage">
+                        ✓ Thank you! Your message has been sent successfully. We'll get back to you soon!
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>TechVision is a leading provider of innovative technology solutions since 2020.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@techvision.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Address: 123 Tech Street, Silicon Valley, CA 94025</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TechVision. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
